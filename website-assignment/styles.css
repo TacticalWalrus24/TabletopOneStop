@@ -1,0 +1,100 @@
+.navigation{
+    display: flex;
+    flex-direction:row;
+    list-style:row;
+    list-style-type:none;
+    padding:0px;
+    margin-top:20px;
+    margin-bottom:0px;
+    justify-content: flex-end;
+}
+
+.navigation a{
+    text-decoration:none;
+    padding:10px;
+    display:block;
+    color: black;
+    background-color:aliceblue;
+}
+
+.navigation a:hover{
+    background-color: Transparent;
+    color: white;
+}
+
+.current-page a{
+    background-color: Transparent;
+    color: white;
+}
+
+.login img{
+    width:40px;
+    margin-top: 10px;
+}
+
+.login button{
+    border: none;
+    padding: 0px 0px;
+    background-color: Transparent;
+    justify-content: space-between;
+}
+
+.login button:hover{
+    background-color: #313131;
+}
+
+.cart{
+    width:50px;
+}
+
+.logo{
+    width:100px;
+}
+
+.section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height:500px;
+    margin-top:20px;
+    border-style: ridge;
+}
+
+.popular-item{
+    width: 20%;
+    background-color: #313131;
+    margin: 20px;
+    justify-content: center;
+}
+
+.popular-item img{
+     width: 80%;
+    margin: 2px;
+}
+
+#storemain{
+    margin-top:10px;
+}
+
+#storefront{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-style: solid;
+    width: 80%;
+}
+
+.store-item{
+    background-color: #313131;
+    margin: 20px;
+    justify-content: center;
+}
+
+.store-item img{
+    width: 80%;
+    margin: 2px;
+}
+
+footer{
+    margin-top:20px;
+    height:40px;
+}
